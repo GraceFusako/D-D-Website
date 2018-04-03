@@ -8,11 +8,12 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <link rel="stylesheet" href="DnD.css">
             <title>DnD</title>
         </head>
         <body>
-            <nav class="navbar navbar-inverse">
+            <nav class="navbar navbar-inverse navbar-static-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <a class="navbar-brand" href="#">
@@ -29,7 +30,7 @@
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Search">
                             </div>
-                            <button type="submit" class="btn btn-default">Submit</button>
+                            <button type="submit" class="btn btn-default"><i class="fa fa-search" style="font-size: 15px; cursor: pointer"></i></button>
                         </form>
                         <button class="btn btn-danger navbar-btn">Login</button>
                     </ul>
@@ -37,7 +38,6 @@
             </nav>
 
             <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="sidenavdrop">
                     <a href="#">Preface</a>
                     <button class="dropdown-btn">Introduction
@@ -163,7 +163,7 @@
                         </div>
                 </div>
             </div>
-            <div class="Container">
+            <div class="Container" onmouseover="closeNav()">
                 <div class="Left">Learn<br>to<br>Play</div>
                 <div class="Right">Start<br>your<br>Journey</div>
             </div>
