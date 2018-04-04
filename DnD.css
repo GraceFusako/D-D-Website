@@ -130,7 +130,7 @@ body {
     padding: .5rem;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
-    font-size: 110px;
+    font-size: 10vh;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -159,7 +159,7 @@ body {
 }
 
 .BookLink:hover {
-    font-size: 120px;
+    font-size: 11vh;
     text-decoration: none;
     color: white;
 }
@@ -170,7 +170,7 @@ body {
 }
 
 .CSLink:hover {
-    font-size: 120px;
+    font-size: 11vh;
     text-decoration: none;
     color: black;
 }
