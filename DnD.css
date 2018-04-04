@@ -144,12 +144,32 @@ body {
 
 /*  Creates Left half of screen */
 .Left {
-    width: 50%;
     background-color: darkred;
 }
 
 /*  Creates Right half of screen */
 .Right {
     background-color: white;
+}
+
+.BookLink {
+    text-decoration: none;
+    color: white;
+}
+
+.BookLink:hover {
+    font-size: 120px;
+    text-decoration: none;
+    color: white;
+}
+
+.CSLink {
+    text-decoration: none;
+    color: black;
+}
+
+.CSLink:hover {
+    font-size: 120px;
+    text-decoration: none;
     color: black;
 }
