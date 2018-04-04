@@ -103,7 +103,7 @@ body {
 
 /* This just stops horizontal scrolling if anything overflows the width */
 body {
-    overflow-x: hidden;
+	overflow: hidden;
 }
 
 /* Removes default browser padding/margin */
