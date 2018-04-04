@@ -1,5 +1,7 @@
-body {
+body, html {
     font-family: "Hoefler Text", Garamond, Georgia, "Times New Roman", Times, serif;
+    overflow: hidden;
+    height: 100%;
 }
 
 .navbar-inverse {
@@ -101,11 +103,6 @@ body {
     box-sizing: border-box;
 }
 
-/* This just stops horizontal scrolling if anything overflows the width */
-body {
-	overflow: hidden;
-}
-
 /* Removes default browser padding/margin */
 html,
 body {
@@ -120,6 +117,7 @@ body {
     overflow: hidden;
     margin-top: -100px;
     position: relative;
+    height: 100%;
     width: 100%;
     backface-visibility: hidden;
     will-change: overflow;
