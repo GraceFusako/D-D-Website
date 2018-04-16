@@ -1,0 +1,99 @@
+body, html {
+    font-family: "Hoefler Text", Garamond, Georgia, "Times New Roman", Times, serif;
+    overflow: hidden;
+    height: 100%;
+}
+
+.navbar-inverse {
+    background-color: black;
+    border-color: black;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.btn-danger {
+    background-color: darkred;
+    border-color: darkred;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav::-webkit-scrollbar {
+    display: none;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenavdrop a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: darkred;
+    color: white;
+}
+
+/* Dropdown container (hidden by default). */
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+  /* Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}

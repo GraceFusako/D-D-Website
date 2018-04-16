@@ -8,7 +8,7 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-            <link rel="stylesheet" href="DnD.css">
+            <link rel="stylesheet" href="charactersheets.css">
             <title>DnD</title>
         </head>
         <body>
@@ -164,10 +164,17 @@
                         </div>
                 </div>
             </div>
-            <div class="Container" onmouseover="closeNav()">
-                <div class="Left"><a href="book.html" class="BookLink" target="_blank">Learn<br>to<br>Play</a></div>
-                <div class="Right"><a href="charactersheets.html" class="CSLink">Start<br>your<br>Journey</a></div>
-            </div>
+            
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="img_fjords.jpg" style="width:100%">
+                <img class="mySlides" src="img_lights.jpg" style="width:100%">
+                <img class="mySlides" src="img_mountains.jpg" style="width:100%">
+                <img class="mySlides" src="img_forest.jpg" style="width:100%">
+              
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+              </div>
+              
         </body>
-        <script src="DnD.js"></script>
+        <script src="charactersheets.js"></script>
     </html>
