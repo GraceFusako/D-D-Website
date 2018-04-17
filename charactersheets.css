@@ -97,3 +97,14 @@ body, html {
     float: right;
     padding-right: 8px;
 }
+
+.slideshow-container {
+    display: flex;
+    overflow: hidden;
+    margin-top: -20px;
+    position: relative;
+    height: 91%;
+    width: 48%;
+    backface-visibility: hidden;
+    will-change: overflow;
+}
