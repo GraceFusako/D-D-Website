@@ -98,13 +98,13 @@ body, html {
     padding-right: 8px;
 }
 
-.slideshow-container {
+.w3-content {
     display: flex;
     overflow: hidden;
     margin-top: -20px;
     position: relative;
     height: 91%;
-    width: 48%;
+    width: 50%;
     backface-visibility: hidden;
     will-change: overflow;
 }
