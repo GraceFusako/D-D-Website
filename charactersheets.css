@@ -98,7 +98,7 @@ body, html {
     padding-right: 8px;
 }
 
-.w3-content {
+.myCarousel {
     display: flex;
     overflow: hidden;
     margin-top: -20px;
